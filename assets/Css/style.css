@@ -714,10 +714,11 @@ footer .footer-icon a i:hover {
     header {
         background: var(--bg-color);
     }
+
     .home {
         background: url(../Img/homeR.png.png);
     }
-
+    
     header .navbar {
         position: absolute;
         top: 100%;

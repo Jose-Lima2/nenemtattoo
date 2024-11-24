@@ -560,6 +560,9 @@ span {
 .address-contact .address-list span {
     font-size: 2.4rem;
 }
+.address-list p {
+    text-decoration: none;
+}
 
 .address-contact .slide-link {
     display: flex;

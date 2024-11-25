@@ -40,9 +40,9 @@ window.onscroll = () => {
 
 var typed = new Typed('.type-animation', {
     strings: ['Tatuador'],
-    typeSpeed: 50,
+    typeSpeed: 150,
     loop: true,
-    backSpeed: 50,
+    backSpeed: 150,
 });
 
 

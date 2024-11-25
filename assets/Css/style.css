@@ -64,11 +64,28 @@ header .navbar a {
     margin-left: 2.5rem;
 }
 
+.logo-top img.logo-img {
+    width: 70px; /* Tamanho da imagem, ajuste conforme necessário */
+    height: auto;
+    margin-right: 5px;
+}
 
 header .navbar a:hover {
     color: var(--main-color);
 }
 
+.home p{
+    text-align: justify;
+}
+.about P{
+    text-align: justify;
+}
+.service P{
+    text-align: justify;
+}
+.testimonial P{
+    text-align: justify;
+}
 #menu-icon {
     font-size: 2.5rem;
     color: var(--text-color);

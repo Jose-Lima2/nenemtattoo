@@ -308,7 +308,7 @@
             <div class="address-contact">
                 <div class="address-list">
                     <span><i class='bx bx-map'></i></span>
-                    <p> São Luis. Brasil</p>
+                    <p>São Luis. Brasil</p>
                 </div>
                 <div class="address-list">
                     <span><i class='bx bx-phone'></i></span>
@@ -316,31 +316,39 @@
                 </div>
                 <div class="address-list">
                     <span><i class='bx bxs-envelope'></i></span>
-                    <p> nenemlopes63@gmail.com</p>
+                    <p>nenemlopes63@gmail.com</p>
                 </div>
                 <br>
                 <div class="slide-link">
                     <a href="https://wa.me/5598991437381?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento"
-                        target="_blank"><i class='bx bxl-whatsapp'></i></a>
-                    <a href="https://www.instagram.com/nenem_tattoo?igsh=MWl6ZjE5bG1kbDExdQ==" target="_blank"><i
-                            class='bx bxl-instagram'></i></a>
+                        target="_blank">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                    <a href="https://www.instagram.com/nenem_tattoo?igsh=MWl6ZjE5bG1kbDExdQ==" target="_blank">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
                 </div>
             </div>
         </div>
         <div class="contact-form">
             <h1 class="heading">Fale <span>Comigo!</span></h1>
-            <form action="">
+            <form action="https://formsubmit.co/nenemlopes63@gmail.com" method="POST">
                 <div class="input-feild">
-                    <input type="text" placeholder="Nome">
-                    <input type="text" placeholder="Email">
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="Email" required>
                 </div>
                 <div class="input-feild">
-                    <input type="number" placeholder="Telefone:">
-                    <input type="text" placeholder="Assunto">
+                    <input type="tel" name="phone" placeholder="Telefone:" required>
+                    <input type="text" name="subject" placeholder="Assunto" required>
                 </div>
-                <textarea cols="30" placeholder="Sua Mensagem"></textarea>
+                <textarea name="message" cols="30" placeholder="Sua Mensagem" required></textarea>
 
-                <button>Enviar</button>
+                <!-- Campos ocultos para configuração -->
+                <input type="hidden" name="_next" value="obrigado.html">
+                <input type="hidden" name="_subject" value="Novo contato do site!">
+                <input type="hidden" name="_captcha" value="false">
+
+                <button type="submit">Enviar</button>
             </form>
         </div>
     </section>

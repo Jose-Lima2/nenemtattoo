@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado pelo Contato!</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, #1a1a1a, #2a2a2a);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .thank-you-container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            max-width: 600px;
+            width: 90%;
+        }
+
+        .icon {
+            font-size: 80px;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #ddd;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .home-btn {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .home-btn:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+        }
+
+        .social-btn {
+            background: #E1306C;
+            color: white;
+        }
+
+        .social-btn:hover {
+            background: #c13584;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 480px) {
+            .thank-you-container {
+                padding: 30px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            .button {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <i class='bx bxs-check-circle icon'></i>
+        <h1>Mensagem Enviada!</h1>
+        <p>Obrigado por entrar em contato! Retornarei sua mensagem o mais breve possível.</p>
+        <div class="buttons">
+            <a href="index.html" class="button home-btn">
+                <i class='bx bx-home'></i>
+                Voltar ao Início
+            </a>
+            <a href="https://www.instagram.com/nenem_tattoo?igsh=MWl6ZjE5bG1kbDExdQ==" class="button social-btn" target="_blank">
+                <i class='bx bxl-instagram'></i>
+                Seguir no Instagram
+            </a>
+        </div>
+    </div>
+</body>
+</html>

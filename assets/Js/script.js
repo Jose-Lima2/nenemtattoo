@@ -92,8 +92,8 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, .heading, .service-box', { origin: 'top' });
 ScrollReveal().reveal('.slider-wrapper, button, .portfoli-box, form, .text-typing-about', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img img, .service-box p, .left-section-details, .footer-text, .social-media ', { origin: 'left' });
-ScrollReveal().reveal('.text-about-content, .home-content p, .footer-icon', { origin: 'right' });
+ScrollReveal().reveal('.home-content h1, .about-img img, .service-box p, .left-section-details, .social-media ', { origin: 'left' });
+ScrollReveal().reveal('.text-about-content, .home-content p', { origin: 'right' });
 
 
 // Inicialização do EmailJS

@@ -126,6 +126,8 @@ section {
 .home-content p {
     font-size: 1.4rem;
     line-height: 1.5;
+    visibility: visible;
+    opacity: 2;
 }
 
 .btn-group {
@@ -734,6 +736,10 @@ footer .footer-icon a i:hover {
 
     .home {
         background: url(../Img/homeR.png.png);
+    }
+    .type-animation {
+        visibility: visible;
+        opacity: 2;
     }
     
     header .navbar {
